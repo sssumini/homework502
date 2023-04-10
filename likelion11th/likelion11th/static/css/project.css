@@ -1,0 +1,23 @@
+h1 {
+    color: rgb(11, 30, 239);
+    padding: 40px 20px 0 20px;
+    text-align: center; 
+    font-style: italic;
+}
+
+h2 {
+    color: rgb(255, 0, 212);
+    padding: 40px 20px 0 20px;
+    text-align: center; 
+}
+
+h3 {
+    color: #466995;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 30px;
+  }
+  

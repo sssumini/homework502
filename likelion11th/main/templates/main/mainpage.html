@@ -8,4 +8,18 @@
 <img src="{% static 'images/윙크.jpg' %}" style="width:500px; height: 400px;">
 <h2>  ♥♡♥♡♥♡♥♡♥♡♥♡♥♡^_^♥♡♥♡♥♡♥♡♥♡♥♡♥♡</h2>
 
+<h1>글 목록</h1>
+
+<div>
+    {% for blog in blogs %}
+    <div>
+        <h3>{{blog.title}}</h3>
+        {{blog.writer}}<br>
+        {{blog.summary}}
+        <a href="{%url 'detail' blog.id %}">...자세히</a>
+        <br>
+    </div>
+    {% endfor %}
+    </div>
+<p>asdfasdf</p>
 {% endblock %}
